@@ -25,14 +25,23 @@ Dataset: Genomes To Fields (2025). Genomes to Fields 2024 Maize Genotype by Envi
 > Output file: Env_clean.csv
 4. Metadata
    ```
- wget https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/GenomesToFields_GenotypeByEnvironment_PredictionCompetition_2025/Training_data/2_Training_Meta_Data_2014_2023.csv
+    wget https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/GenomesToFields_GenotypeByEnvironment_PredictionCompetition_2025/Training_data/2_Training_Meta_Data_2014_2023.csv
    ```
 > Output file: metadata_clean_imputed.csv
 5. Weather data
    ```
-wget https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/GenomesToFields_GenotypeByEnvironment_PredictionCompetition_2025/Training_data/4_Training_Weather_Data_2014_2023_full_year.csv
+   wget https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/GenomesToFields_GenotypeByEnvironment_PredictionCompetition_2025/Training_data/4_Training_Weather_Data_2014_2023_full_year.csv
    ```
 > Output file: weather_clean.csv
+
+## BLUEs 
+BLUEs are calulated separately for yield and plant height. The file BLUEs.py contains code for both traits. Run the file BLUEs.py.
+
+> Output file for yield: agg_BLUE_yield.csv\
+> Output file for plant height: agg_BLUE_plant_height.csv
+
+
+
 
 
 
