@@ -67,8 +67,31 @@ The file BLUEs.py contains code for both traits. Run the file BLUEs.py
 > Output file for yield: agg_BLUE_yield.csv\
 > Output file for plant height: agg_BLUE_plant_height.csv
 
+## Merging data
 
+> Use agg_BLUE_yield.csv for yield
+> Use agg_BLUE_plant_height.csv for plant height
 
+The yield and plant height datasets are merged separately. Run the file Merging.py to get merged final dataset for yield.\
+Run the file again using agg_BLUE_plant_height.csv for merged final dataset for plant height.
+
+>Output file for yield: Final_merged_yield.csv
+>Output file for plant height: Final_merged_plant_height.csv
+
+## Geenomic Prediction Models
+
+Four prediction models are used in this study. Locus specific degree of dominance is applied to the Transformed models.
+- Bayes model
+- XGBoost model
+- Transformed Bayes model
+- Transformed XGBoost model
+
+The models are tested under three cross validation scenarios
+- Leave One Year out
+- Rolling Year
+- Leave One Environment out
+
+### Bayes model
 
 
 
