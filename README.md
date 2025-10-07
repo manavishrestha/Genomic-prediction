@@ -69,30 +69,39 @@ The file BLUEs.py contains code for both traits. Run the file BLUEs.py
 
 ## Merging data
 
-> Use agg_BLUE_yield.csv for yield
+> Use agg_BLUE_yield.csv for yield\
 > Use agg_BLUE_plant_height.csv for plant height
 
 The yield and plant height datasets are merged separately. Run the file Merging.py to get merged final dataset for yield.\
 Run the file again using agg_BLUE_plant_height.csv for merged final dataset for plant height.
 
->Output file for yield: Final_merged_yield.csv
+>Output file for yield: Final_merged_yield.csv\
 >Output file for plant height: Final_merged_plant_height.csv
 
 ## Geenomic Prediction Models
 
+> Use the respective merged files for yield and plant height.
 Four prediction models are used in this study. Locus specific degree of dominance is applied to the Transformed models.
-- Bayes model
-- XGBoost model
-- Transformed Bayes model
-- Transformed XGBoost model
+-  bayesian
+-  xgboost
+-  bayesian transformed
+-  xgboost transformed
 
-The models are tested under three cross validation scenarios
-- Leave One Year out
-- Rolling Year
-- Leave One Environment out
+The models are tested under three cross validation scenarios. Codes for all three models are available under the folders with model names.
+-  Leave One Year out
+-  Rolling Year
+-  Leave One Environment out
 
-### Bayes model
-
-
+## Train size and overlapping hybrids
+The train size and number of overlapping hybrids between the train and test set for each year can be caulculated for year based cross validation models.
+File provides:
+-  Train years
+-  Test years
+-  Train set size
+-  Test set size
+-  Number of unique hybrids in test set
+-  Number of overlapping hybrids between the train and test set
+  
+Run the file: train_test_2025Oct.R for Leave One Year Out and Rolling Year.
 
 
