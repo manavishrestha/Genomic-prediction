@@ -78,7 +78,7 @@ Run the file again using agg_BLUE_plant_height.csv for merged final dataset for 
 >Output file for yield: Final_merged_yield.csv\
 >Output file for plant height: Final_merged_plant_height.csv
 
-## Geenomic Prediction Models
+## Genomic Prediction Models
 
 > Use the respective merged files for yield and plant height.
 Four prediction models are used in this study. Locus specific degree of dominance is applied to the Transformed models.
